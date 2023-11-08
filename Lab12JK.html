@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Lab  Template - John Kehdy, H02, 6 November 2023 -->
+<title> Lab 12 JK </title>
+<meta charset="utf-8">
+</head>
+
+<style>
+div {border: solid;}
+
+.col1 {position:absolute;
+top:30px;
+left:30px;
+width:500px;
+font-size:50px;
+text-align:center;
+font-family: cursive;
+padding:50px;
+}
+
+.col2 {position:absolute;
+top:30px;
+left:630px;
+width:500px;
+height:821px;
+font-size:50px;
+text-align:center;
+font-family: cursive;
+padding:50px;
+}
+
+.col3 {position:absolute;
+top:30px;
+left:1230px;
+width:500px;
+height:821px;
+font-size:50px;
+text-align:center;
+font-family: cursive;
+padding:50px;
+}
+</style>
+
+<script>
+function funny() {
+document.getElementById("cover").src="Lab12Images/dad1.jpeg";
+}
+
+function normal() {
+document.getElementById("cover").src="Lab12Images/dad4.jpg";
+}
+</script>
+
+<body>
+<div class="col1">
+Happy Birthday Dad!
+<br>
+<br>
+<img src="Lab12Images/dad4.jpg" alt="dad1" width="500" onmouseover="funny();" onmouseout="normal();" id="cover">
+</div>
+
+
+<div class="col2">
+You're officially as old as dirt!
+<br>
+<br>
+<img src="Lab12Images/dad2.gif" alt="dad2" height="600">
+</div>
+
+<div class="col3">
+<br>
+Maybe you can tell me about the dinosaurs sometime!
+<br> <br>
+<img src="Lab12Images/dad3.png" alt="dad3" width="450">
+</div>
+
+</body>
+</html>
